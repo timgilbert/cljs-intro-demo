@@ -6,6 +6,6 @@
     :builds {
       :main {
         :source-paths ["src"]
-        :compiler {:output-to "www/js/main.js"
+        :compiler {:output-to "www/js/compiled.js"
                    :optimizations :whitespace
                    :pretty-print true}}}})
