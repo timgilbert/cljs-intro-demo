@@ -5,10 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
   <body>
     <h1>CLJS Demo</h1>
+
+    <form action="" method="post" id="loginForm">
+        <fieldset>
+            <legend>Login</legend>
+
+            <div>
+              <label for="email">Email Address</label>
+              <input name="email" id="email">
+
+            </div>
+
+            <div>
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password">
+            </div>
+
+            <div>
+              <label for="submit"></label>
+              <input type="submit" value="Login &rarr;" id="submit">
+            </div>
+
+        </fieldset>
+        <p class="error" id="errMsg"></p>
+    </form>
 
     <script src="//code.jquery.com/jquery.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
